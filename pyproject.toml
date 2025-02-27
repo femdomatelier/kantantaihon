@@ -1,0 +1,11 @@
+[project]
+name = "kantantaihon"
+version = "0.1.0"
+dependencies = [
+    "pyyaml",
+]
+
+[tool.pyinstaller]
+name = "kantantaihon"
+onefile = true
+console = true
