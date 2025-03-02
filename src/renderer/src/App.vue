@@ -19,7 +19,6 @@ const patch = init([
 
 
 const ipcHandle = (): void => window.electron.ipcRenderer.send('ping')
-const count = ref(0);
 </script>
 
 <template>
